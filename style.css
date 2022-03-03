@@ -7,7 +7,7 @@ body, body *, body *::before, body *::after {
 
     background: transparent;
 
-    font-family: inherit;
+    font-family: 'Poppins', sans-serif;
   
     text-decoration: none;
 }
@@ -39,4 +39,90 @@ button, input, textarea, select {
     appearance: none !important;
     -webkit-appearance: none !important;
     border-radius: 0
+}
+
+body {
+    background-color: #242d38;
+}
+
+header {
+    position: fixed;
+    color: #efd592;
+    font-weight: 400;
+    background-color: #242d38;
+    border-bottom: 1px solid #efd592;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+}
+
+header a {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+header button {
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 24px;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    gap: 90px 20px;
+    
+
+}
+
+.card {
+    position: relative;
+    top: 120px;
+    max-width: 490px;
+    background-color: #efd592;
+    color: #242d38;
+    padding: 40px;
+}
+
+.num-container {
+    width: 40px;
+    height: 40px;
+    background-color: #242d38;
+    border: 1px solid #efd592;
+    color: #efd592;
+    font-size: 24px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+
+}
+
+.sub {
+    font-size: 18px;
+    border-bottom: 1px solid #242d38;
+
+}
+
+.text {
+    font-size: 18px;
+
+}
+
+div button {
+    position: absolute;
+    background-color: #242d38;
+    border: 1px solid #efd592;
+    color: #efd592;
+    font-size: 14px;
+    width: calc(100% - 80px);
+    height: 60px;
+
 }
